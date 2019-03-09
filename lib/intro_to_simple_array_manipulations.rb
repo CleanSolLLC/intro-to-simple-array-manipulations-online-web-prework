@@ -46,12 +46,12 @@ list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary 
 another_esoteric_language = "Malbolge"
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
-  new_array = list_of_esoteric_programming_languages.insert(5,another_esoteric_language)
+  new_array = list_of_esoteric_programming_languages.insert(4,another_esoteric_language)
 end
 
 captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
 
-def uniq(captain_planet_and_the_planeteers)
+def using_uniq(captain_planet_and_the_planeteers)
   new_array = captain_planet_and_the_planeteers.uniq
 end
 
