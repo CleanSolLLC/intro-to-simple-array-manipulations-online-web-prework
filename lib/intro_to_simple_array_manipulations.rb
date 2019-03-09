@@ -63,7 +63,7 @@ end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 
-def using_delete(instructors)
+def using_delete(instructors,string)
   no_offense_steven = instructors.delete("Steven")
 end
 
